@@ -465,11 +465,7 @@ with st.sidebar:
     N_preview = max(1, int(round(Fs * duration)))
     max_plot_samples = min(N_preview, 50000)
 
-    st.markdown(
-        f'''<div class="sidebar-card">
-        </div>''',
-        unsafe_allow_html=True,
-    )
+
 
 
     with st.expander("Display", expanded=False):
@@ -485,7 +481,7 @@ with st.sidebar:
         st.caption(f"Total generated samples: N = Fs × T = {N_preview:,}")
 
     generate_button = st.button(
-        "⚡ Generate Signal",
+        "Generate Signal",
         type="primary",
         use_container_width=True,
     )
