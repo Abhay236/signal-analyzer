@@ -467,8 +467,10 @@ with st.sidebar:
 
     st.markdown(
         f'''<div class="sidebar-card">
+        </div>''',
         unsafe_allow_html=True,
     )
+
 
     with st.expander("Display", expanded=False):
         plot_samples_input = st.number_input(
