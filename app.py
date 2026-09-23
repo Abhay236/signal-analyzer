@@ -398,9 +398,7 @@ if "filter_type" not in st.session_state:
 # Sidebar — signal setup
 # -------------------------
 with st.sidebar:
-    st.markdown('<div class="brand-kicker">DSP WORKSPACE</div>', unsafe_allow_html=True)
-    st.markdown('<div style="font-size:1.16rem;font-weight:800;color:#f4f7fb;">Signal Lab</div>', unsafe_allow_html=True)
-    st.caption("A clean workspace for generating and inspecting signals.")
+
 
     st.markdown("### 01 · Generate")
     waveform = st.selectbox(
