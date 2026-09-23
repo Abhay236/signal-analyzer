@@ -467,7 +467,6 @@ with st.sidebar:
 
     st.markdown(
         f'''<div class="sidebar-card">
-        </div>''',
         unsafe_allow_html=True,
     )
 
