@@ -638,8 +638,7 @@ if apply_filter_button:
 st.markdown('<div class="brand-kicker">DIGITAL SIGNAL PROCESSING LABORATORY</div>', unsafe_allow_html=True)
 st.markdown('<div class="hero-title">Signal Generator <span>&amp;</span> Analyzer</div>', unsafe_allow_html=True)
 st.markdown(
-    '<div class="hero-subtitle">Generate, condition and inspect signals in one focused workspace. The sampling rate is fixed at 44.1 kHz throughout the application.</div>',
-    unsafe_allow_html=True,
+ 
 )
 st.markdown(
     '''<div class="badge-row">
