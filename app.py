@@ -652,12 +652,8 @@ st.markdown(
 if not st.session_state.signal_generated:
     st.markdown(
         '''<div class="panel">
-        <div class="section-kicker"> </div>
+        <div class="section-kicker">READY</div>
         <div class="section-title">Generate Signal</div>
-        <div style="color:#9ca8ba;font-size:0.88rem;line-height:1.6;max-width:760px;">
-        Select a waveform and its parameters in the left panel, then click <b>Generate Signal</b>.
-       
-        </div>
         <div class="pipeline">
             <span class="pipeline-step">01 GENERATE</span><span class="pipeline-arrow">→</span>
             <span class="pipeline-step">02 CONDITION</span><span class="pipeline-arrow">→</span>
