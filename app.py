@@ -733,7 +733,7 @@ samples_to_plot = min(
 if analysis_mode == "Time + FFT":
     st.markdown('<div class="panel">', unsafe_allow_html=True)
     st.markdown('<div class="section-title">Time-domain waveform &amp; FFT spectrum</div>', unsafe_allow_html=True)
-    st.caption(f"Displaying {samples_to_plot:,} samples in the time-domain view. The full signal is retained for export.")
+    st.caption(f"Displaying {samples_to_plot:,} samples in the time-domain view.")
 
     left, right = st.columns(2, gap="large")
     samples_for_plot = max(2, min(samples_to_plot, len(analysis_signal)))
