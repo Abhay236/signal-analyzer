@@ -643,10 +643,8 @@ st.markdown(
 )
 st.markdown(
     '''<div class="badge-row">
-        <span class="badge live">● Local processing</span>
         <span class="badge accent">Fs = 44.1 kHz fixed</span>
         <span class="badge">Nyquist = 22.05 kHz</span>
-        <span class="badge">Python · NumPy · SciPy · Matplotlib</span>
     </div>''',
     unsafe_allow_html=True,
 )
