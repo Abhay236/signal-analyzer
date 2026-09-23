@@ -667,7 +667,6 @@ if not st.session_state.signal_generated:
         </div>''',
         unsafe_allow_html=True,
     )
-    st.markdown('<div class="footer">Signal Lab · Fixed sampling frequency = 44.1 kHz</div>', unsafe_allow_html=True)
     st.stop()
 
 x = st.session_state.x_value
