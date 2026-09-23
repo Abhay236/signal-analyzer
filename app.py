@@ -656,7 +656,7 @@ if not st.session_state.signal_generated:
         <div class="section-title">Generate Signal</div>
         <div style="color:#9ca8ba;font-size:0.88rem;line-height:1.6;max-width:760px;">
         Select a waveform and its parameters in the left panel, then click <b>Generate Signal</b>.
-        The analysis workspace will appear after generation.
+       
         </div>
         <div class="pipeline">
             <span class="pipeline-step">01 GENERATE</span><span class="pipeline-arrow">→</span>
