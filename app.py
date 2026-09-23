@@ -467,7 +467,6 @@ with st.sidebar:
 
     st.markdown(
         f'''<div class="sidebar-card">
-        <div class="text">44.1 kHz fixed · Nyquist 22.05 kHz · 16-bit WAV export</div>
         </div>''',
         unsafe_allow_html=True,
     )
