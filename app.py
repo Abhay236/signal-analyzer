@@ -918,4 +918,3 @@ else:
     )
     st.markdown('</div>', unsafe_allow_html=True)
 
-st.markdown('<div class="footer">Signal Lab · Python · NumPy · SciPy · Matplotlib · Fixed sampling frequency = 44.1 kHz</div>', unsafe_allow_html=True)
