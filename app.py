@@ -639,12 +639,13 @@ st.markdown('<div class="brand-kicker">DIGITAL SIGNAL PROCESSING LABORATORY</div
 st.markdown('<div class="hero-title">Signal Generator <span>&amp;</span> Analyzer</div>', unsafe_allow_html=True)
 st.markdown(
     unsafe_allow_html=True,
-
 )
 st.markdown(
     '''<div class="badge-row">
+        <span class="badge live">● Local processing</span>
         <span class="badge accent">Fs = 44.1 kHz fixed</span>
         <span class="badge">Nyquist = 22.05 kHz</span>
+        <span class="badge">Python · NumPy · SciPy · Matplotlib</span>
     </div>''',
     unsafe_allow_html=True,
 )
