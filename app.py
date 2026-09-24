@@ -645,7 +645,6 @@ st.markdown(
 if not st.session_state.signal_generated:
     st.markdown(
         '''<div class="panel">
-        <div class="section-kicker">READY</div>
         <div class="section-title">Generate Signal</div>
         <div class="pipeline">
             <span class="pipeline-step">01 GENERATE</span><span class="pipeline-arrow">→</span>
