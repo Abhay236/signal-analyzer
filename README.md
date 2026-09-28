@@ -93,6 +93,6 @@ Run the application:
 streamlit run app.py
 ```
 
-Open the deployed application:
-```
-https://signal-analyzer-4s4sfbviqznc6vrckaiegc.streamlit.app/
+## Live Demo
+
+[Open Signal Generator & Analyzer](https://signal-analyzer-4s4sfvbiqznc6vrckaiegc.streamlit.app/)
