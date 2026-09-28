@@ -81,3 +81,12 @@ Clone the repository:
 ```bash
 git clone https://github.com/Abhay236/signal-analyzer.git
 cd signal-analyzer
+
+Install the required dependencies:
+pip install -r requirements.txt
+
+Run the application:
+streamlit run app.py
+
+Open the deployed application:
+https://signal-analyzer-4s4sfbviqznc6vrckaiegc.streamlit.app/
